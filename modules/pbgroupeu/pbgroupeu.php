@@ -59,6 +59,7 @@ class pbgroupeu extends Module
     if (!parent::install() ||
       !$this->registerHook('leftColumn') ||
       !$this->registerHook('actionFrontControllerSetMedia') ||
+      !$this->registerHook('header') ||
       !Configuration::updateValue('PBGROUPEU_NAME', ' pbgroupeu')
     ) {
       return false;
@@ -164,6 +165,7 @@ class pbgroupeu extends Module
     $this->context->smarty->assign([
       'pbgroupeu_name' => Configuration::get('PBGROUPEU_NAME'),
       'pbgroupeu_link' => $this->context->link->getModuleLink('pbgroupeu', 'display'),
+      'pbgroupeu_message' => $this->l('This is a simple text message'),
     ]);
 
     return $this->display(__FILE__, 'pbgroupeu.tpl');
@@ -171,7 +173,7 @@ class pbgroupeu extends Module
 
   public function hookDisplayRightColumn($params)
   {
-    return $this->hookdDisplayLeftCOlumn($params);
+    return $this->hookDisplayLeftColumn($params);
   }
 
   public function hookActionFrontControllerSetMedia()
@@ -193,5 +195,10 @@ class pbgroupeu extends Module
         'priority' => 1000,
       ]
     );
+  }
+
+  public function hookDisplayHeader($params)
+  {
+    return $this->hookDisplayLeftColumn($params);
   }
 }

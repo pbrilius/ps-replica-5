@@ -27,6 +27,7 @@
                World
            {/if}
            !
+           {$pbgroupeu_message}
     </p>
     <ul>
       <li><a href="{$pbgroupeu_link}" title="Click this link">Click me!</a></li>
