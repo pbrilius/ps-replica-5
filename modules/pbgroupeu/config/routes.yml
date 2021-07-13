@@ -1,0 +1,6 @@
+# modules/your-module/config/routes.yml
+pbgroupeu_logo:
+    path: pbgroupeu/logo
+    methods: [GET]
+    defaults:
+      _controller: 'PBGroupeu\Controller\LogoController::displayAction'

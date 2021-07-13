@@ -1,0 +1,13 @@
+{
+  "name": "pbgroupeu/pbgroupeu",
+  "description": "Image parsing algorithm,applying logo distortion on stock item",
+  "autoload": {
+    "psr-4": {
+      "PBGroupeu\\Controller\\": "src/Controller/"
+    }
+  },
+  "config": {
+      "prepend-autoloader": false
+  },
+  "type": "prestashop-module"
+}
