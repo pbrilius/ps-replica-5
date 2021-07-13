@@ -26,6 +26,13 @@ define('_PS_MODE_DEV_', true);
 
 class pbgroupeu extends Module
 {
+  public $tabs= [
+    'name' => 'Image Stock - pbgroupeu',
+    'class_name' => 'Logo',
+    'visible' => true,
+    'parent_class_name' => 'ShopParameters',
+  ];
+
   public function __construct()
   {
     $this->name = 'pbgroupeu';
