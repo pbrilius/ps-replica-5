@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>gsitemap</name>
+    <displayName><![CDATA[Google svetainės žemėlapis]]></displayName>
+    <version><![CDATA[4.2.0]]></version>
+    <description><![CDATA[Generuoti Google svetainės žemėlapio bylą]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[seo]]></tab>
+	<confirmUninstall><![CDATA[Ar tikrai norite išdiegti šį modulį?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

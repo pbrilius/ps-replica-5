@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pagesnotfound</name>
+    <displayName><![CDATA[Nerasti puslapiai]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Prideda skirtuką į statistikos skydelį, rodantį puslapius, kurie nebuvo rasti Jūsų lankytojams.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

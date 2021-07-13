@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>blockreassurance</name>
+    <displayName><![CDATA[Kliento patikinimas]]></displayName>
+    <version><![CDATA[5.0.0]]></version>
+    <description><![CDATA[Susisiekite su savo klientais ir dar kartą patikinkite juos, pabrėždami savo paslaugas: saugų apmokėjimą, nemokamą pristatymą, grąžinimus, ir t.t.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[seo]]></tab>
+	<confirmUninstall><![CDATA[Ar tikrai norite išdiegti šį modulį?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

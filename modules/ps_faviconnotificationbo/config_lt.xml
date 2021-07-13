@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_faviconnotificationbo</name>
+    <displayName><![CDATA[Užsakymo prane&scaron;imai Favicon ženklelyje]]></displayName>
+    <version><![CDATA[2.1.0]]></version>
+    <description><![CDATA[Būkite informuotas apie kiekvieną naują užsakymą, klientą ar prane&scaron;imą tiesiogiai savo namuose esančiame nar&scaron;yklės puslapio skirtuke, net jei dirbate kitame]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

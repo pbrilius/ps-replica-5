@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pbgroupeu</name>
+    <displayName><![CDATA[pbgroupeu]]></displayName>
+    <version><![CDATA[]]></version>
+    <description><![CDATA[Auto managing image tags on stock items]]></description>
+    <author><![CDATA[Povilas Brilius]]></author>
+    <tab><![CDATA[image_tag_on_stock_item]]></tab>
+	<confirmUninstall><![CDATA[Are you sure to uninstall this package?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

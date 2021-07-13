@@ -3239,6 +3239,7 @@ class AdminContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 63 => 'ps_eventbus',
                 64 => 'blockreassurance',
                 65 => 'ps_facetedsearch',
+                66 => 'pbgroupeu',
             ],
             'ps_cache_dir' => '/home/povilasbrilius/.atom-projects/ps-replica-5/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',

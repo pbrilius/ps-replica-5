@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_wirepayment</name>
+    <displayName><![CDATA[Mokėjimas pavedimu]]></displayName>
+    <version><![CDATA[2.1.0]]></version>
+    <description><![CDATA[Suteikite galimybę pirkėjams atsiskaityti tiesioginiu banko pavedimu, užsakymo apmokėjimo puslapyje parodant/pridedant banko sąskaitos informaciją.
+]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Ar tikrai norite panaikinti savo duomenis?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
